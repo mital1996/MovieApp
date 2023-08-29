@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  padding: 0.5rem;
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navLink:hover {
+  font-weight: bold;
+  color: #fff;
+}

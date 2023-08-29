@@ -1,0 +1,42 @@
+/* .movieList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+} */
+
+.movieCard {
+  width: 20vw;
+  margin: 1rem;
+  color: white;
+  position: relative;
+}
+
+.movieTitle {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.movieButton {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.movieImg {
+  height: 40vh;
+  width: 20vw;
+}
+
+@media screen and (max-width: 400px) {
+  .movieCard {
+    width: 40vw;
+    margin: 0.1rem;
+  }
+  .movieButton {
+    width: 80%;
+  }
+  .moviesImg {
+    width: 40vw;
+  }
+}
